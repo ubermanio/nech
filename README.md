@@ -1,6 +1,6 @@
-# Nochen
+# Nech
 
-Nochen is a simple library for encapsulating business logic into smaller, shareable DDD-inspired blocks. TypeScript + Batteries included. ⚡️
+Nech is a simple library for encapsulating business logic into smaller, shareable DDD-inspired blocks. TypeScript + Batteries included. ⚡️
 
 | Function          | Description                                                                                                                                                                        | Usage                                                                        |
 | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
@@ -21,7 +21,7 @@ You can either define a simple entity
 
 ```typescript
 import { z } from 'zod'
-import { entity } from 'nochen'
+import { entity } from 'nech'
 
 const Price = entity('Price', z.number().positive())
 ```
@@ -30,7 +30,7 @@ or a more complex one
 
 ```typescript
 import { z } from 'zod'
-import { entity } from 'nochen'
+import { entity } from 'nech'
 
 const UserEntityy = entity(
    'User',
@@ -49,7 +49,7 @@ As `entity` i just a factory method for a new class extending `Entity`, you can 
 
 ```typescript
 import { z } from 'zod'
-import { entity } from 'nochen'
+import { entity } from 'nech'
 
 class UserEntity extends entity(
    'User',
@@ -93,7 +93,7 @@ node<Input, Output>(name: string, inputSchema: ZodSchema<Input>, handler: ((inpu
 
 ```typescript
 import { z } from 'zod'
-import { node, type EntityOf } from 'nochen'
+import { node, type EntityOf } from 'nech'
 
 const $createUser = node(
    'CreateUser',

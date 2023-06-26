@@ -1,25 +1,25 @@
 {
-  "name": "nochen",
-  "version": "0.0.1",
-  "module": "src/index.ts",
-  "devDependencies": {
-    "zod": "^3.21.4"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0",
-    "bun-types": ""
-  },
-  "description": "NOdes, CHains, ENtities – A data pipeline framework",
-  "homepage": "https://github.com/ubermanio/nochen",
-  "keywords": [
-    "data",
-    "pipeline",
-    "flow",
-    "bun"
-  ],
-  "scripts": {
-    "test": "bun test"
-  },
-  "type": "module",
-  "types": "src/index.ts"
+   "name": "nech",
+   "version": "0.0.1",
+   "module": "src/index.ts",
+   "devDependencies": {
+      "zod": "^3.21.4"
+   },
+   "peerDependencies": {
+      "typescript": "^5.0.0",
+      "bun-types": ""
+   },
+   "description": "Node-Entity-CHain – A data pipeline framework",
+   "homepage": "https://github.com/ubermanio/nech",
+   "keywords": [
+      "data",
+      "pipeline",
+      "flow",
+      "bun"
+   ],
+   "scripts": {
+      "test": "bun test"
+   },
+   "type": "module",
+   "types": "src/index.ts"
 }
